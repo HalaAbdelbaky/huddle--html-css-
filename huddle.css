@@ -1,0 +1,324 @@
+/* general styles************************ */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Open+Sans:wght@400;600;700&family=Oswald&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  --pink-color:hsl(322, 100%, 66%);
+  --light-pink-color:hsl(321, 100%, 78%);
+  --width-curve:100%;
+  --width-footer-designer:40%;
+  --width-footer-media:144px;
+}
+/* header------------------------------------ */
+.container{
+  width:80vw;
+  margin:auto;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height:240PX
+}
+header  .logo-img{
+  width:250px;
+  height:53px;
+}
+header  .logo-img img{
+  display:block;
+  max-width:100%;
+  height:auto
+}
+header .btn button{
+  background-color:transparent;
+  cursor:pointer;
+  color:var(--pink-color);
+  border-color:var(--pink-color);
+  outline:none;
+  border:1px solid;
+  padding:5px 20px;
+  transition:.15s;
+  border-radius:30px;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.8rem  2.5rem;
+  font-size: .875rem;
+  border-radius: 20px;
+  font-family: inherit;
+}
+header .btn button:hover{
+  color:white;
+  background-color: var(--pink-color);
+}
+/* community----------------------------- */
+.community{
+  text-align: center;
+}
+ .community .introduction{
+  padding-top:80px;
+  width:100%;
+}
+.community .introduction p{
+  margin-top:40px ;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing:2px;
+  font-size: 18px;
+  color: hsl(192, 100%, 9%);
+}
+.community .introduction h1{
+  font-size:48px;
+  font-weight: 800;
+}
+.btn2  button{
+  background-color:transparent;
+  cursor:pointer;
+  color:white;
+  background-color:var(--pink-color);
+  outline:none;
+  border:1px solid;
+  font-weight:700;
+  padding: 1rem  4rem;
+  font-weight: 700;
+  line-height:1.6;
+  border-radius:50px;
+  transition:.5s ease;
+  font-size:17px;
+  margin-top:40px;
+  border-color:transparent;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+.btn2 button:hover{
+  background-color:hsl(321, 83%, 56%);
+}
+.community  .screen-mockup{
+   width:100%;
+   padding-top:100px;
+}
+.community  .screen-mockup img{
+  display: block;
+  max-width:100%;
+  height:auto;
+  margin:auto
+}
+/* range------------------------------ */
+.range{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap: wrap;
+  width:100%;
+  height:20%;
+  padding-top:150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.range .range1 h3,
+.range .range2 h3{
+  font-size:80px;
+  font-weight:800;    
+}
+.range .range1 span,
+.range .range2 span{
+  color: #838386
+}
+/* grow-------------------------------- */
+.grow{
+  margin-top:270px;
+  position: relative;
+  background-color: hsl(210deg 100% 98%);
+}
+.grow .grow-curve2{
+  bottom:calc(-.25* var(--width-curve))
+}
+.grow .grow-curve{
+  top:calc(-.28* var(--width-curve))
+}
+.grow .grow-curve,
+.grow .grow-curve2{
+  width:var(--width-curve);
+  z-index:2;
+  position: absolute;
+}
+.grow .grow-curve img,.grow .grow-curve2 img{
+  max-width:100%;
+  height:auto
+}
+.grow   .growing,
+.flowing   .growing,
+.users .growing
+{
+  padding-top:50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.grow    .growing   .discuss,
+.flowing    .growing   .discuss,
+.users  .growing   .discuss
+{
+width:50%
+}
+.grow  .growing .discuss h2,
+.flowing  .growing .discuss h2,
+.users .growing .discuss h2
+{
+  font-size:32px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.grow   .growing   .discuss   p
+,.flowing  .growing   .discuss   p,
+.users    .growing .discuss  p{
+  width:83%
+}
+.grow   .growing   .illustration-grow,
+.flowing   .growing   .illustration-grow,
+.users   .growing   .illustration-grow{
+  width:50%
+}
+.grow    .growing   .illustration-grow   img,
+.flowing    .growing   .illustration-grow   img,
+.users    .growing    .illustration-grow   img{
+  max-width:100%;
+  height:auto
+}
+/* flowing-------------------------------- */
+.flowing{
+  padding-top:200px
+}
+.flowing .discuss{
+padding-left: 50px;
+}
+/* users---------------------------------- */
+.users{
+  position: relative;
+  background-color: hsl(210deg 100% 98%);
+  margin-top: 228px;
+}
+.users .users-curve
+,.users .users-curve2{
+  position: absolute;
+  z-index:2;
+  width:var(--width-curve);
+}
+.users .users-curve{
+  top:calc(-.28* var(--width-curve))
+}
+.users .users-curve2{
+  bottom:calc(-.28* var(--width-curve))
+}
+.grow .grow-curve,
+.grow .grow-curve2{
+  z-index:2;
+  position: absolute;
+  width:var(--width-curve);
+}
+.users .users-curve img
+,.users .users-curve2 img{
+  max-width:100%;
+  height:auto
+}
+/* footer------------------------------------ */
+.footer{
+  position: relative;
+  background-color:hsl(192deg 100% 9%);
+  padding-top:55px;
+  margin-top:100px;
+  color:white
+}
+.footer .footer-curve{
+  position: absolute;
+  display: flex;
+  top:calc(-.90 * var(--width-footer-designer));
+}
+.footer .footer-curve img{
+  max-width:100%;
+  height:100%
+}
+.footer .img{
+  cursor:pointer
+}
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .details{
+  width:40%;
+}
+.footer .container  p{
+  font-size:15px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.footer .container  p img{
+  padding-right:10px
+}
+.footer .container .details ul{
+  display:flex;
+  list-style: none;
+}
+.footer .container .details ul li {
+  padding-right:20px;
+  font-weight: 400;
+  font-size:25px;
+  cursor:pointer
+}
+.footer .container .tips{
+  width:60%;
+  margin-left: 20%;
+}
+.footer .container .tips p{
+  width:60%;
+}
+.footer .container .tips form{
+  margin-top:25px;
+  display: flex;
+  flex-wrap:wrap;
+}
+.footer .container .tips form input{
+  padding-left:52px;
+  padding-right:52px;
+  border-radius:7px;
+  border-color:transparent
+}
+.footer .container .tips form input:focus{
+  outline:0;
+}
+.footer .container .tips button{
+  background-color:transparent;
+  padding: 0px 32px;
+  text-align: center;
+  height:45px;
+  margin-left:20px;
+  border-radius:7px;
+  border-color:transparent;
+  background-color: var(--pink-color);
+  color:white;
+  cursor:pointer
+}
+.footer .designer{
+  width:var(--width-footer-designer);
+  margin:auto;
+  margin-top:20px;
+  padding-bottom:20px;
+  color: #dcedff;
+  font-size:14px
+}
+.footer .designer a{
+  color:var(--pink-color);
+  text-decoration: none;
+}
+/* @media screen and  (min-width:388px){
+  .footer .footer-curve {
+    top:calc( -.26* var(--width-footer-media)) !important;
+  }
+} */

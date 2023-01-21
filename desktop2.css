@@ -1,0 +1,165 @@
+/* *general styles************************ */
+
+
+.btn2  button{
+  padding:1rem  3rem;
+  font-size:20px
+}
+.container{
+  width:80vw
+}
+.community .introduction h1{
+  font-size:60px;
+  font-weight:900;
+}
+
+.range .range1 h3,
+.range .range2 h3{
+  font-size:90px;
+}
+.range .range1 span,
+.range .range2 span{
+  font-size:22px;
+}
+.grow .growing .discuss p{
+  width: 63%;
+}
+.footer .footer-curve {
+  top: -154px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Open+Sans:wght@400;600;700&family=Oswald&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  --pink-color:hsl(322, 100%, 66%);
+  --light-pink-color:hsl(321, 100%, 78%)
+} 
+/* header------------------------------------ */
+/* .container{
+  width:85vw;
+  margin:auto;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height:120px
+}
+header  .logo-img{
+  width: 170px;
+  height:30px;
+}
+header  .logo-img img{
+  display:block;
+  width:100%;
+  height:100%
+}
+header .btn button{
+  background-color:transparent;
+  cursor:pointer;
+  color:var(--pink-color);
+  border-color:var(--pink-color);
+  outline:none;
+  border:1px solid;
+  padding:5px 20px;
+  transition:.15s;
+  border-radius:30px;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.25rem  1.5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: 7.5rem;
+  font-family: inherit;
+}
+header .btn button:hover{
+  color:white;
+  background-color: var(--pink-color);
+}
+/* community----------------------------- */
+/* .community{
+  text-align: center;
+  position:relative;
+  height: 1695px ;
+  width:100%
+}
+.community .introduction{
+  position:absolute;
+  top:10%;
+  left:50%;
+  width:100%;
+  height:25%;
+  z-index:1;
+  transform: translateX(-50%);
+}
+.community .introduction h1{
+  font-size:45px;
+}
+.community .introduction p{
+  width:60%;
+  margin:auto;
+  margin-top:50px;
+  font-size:25px;
+  font-weight:700;
+}
+.community .introduction .btn button{
+  background-color:transparent;
+  cursor:pointer;
+  color:white;
+  background-color:var(--pink-color);
+  outline:none;
+  border:1px solid;
+  font-weight:800;
+  padding: 1.4499999999999993rem  6.2rem;
+  line-height:2.2;
+  border-radius: 7.5rem;
+  transition:.5s ease;
+  margin-top:50px;
+  font-size:17px;
+}
+.community .introduction .btn button:hover{
+  background-color:hsl(321, 83%, 56%);
+}
+.community  .screen-mockup{
+  position:absolute;
+  height:50%;
+  width:80%;
+  top:60vh;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:1
+}
+.community  .screen-mockup img{
+  display: block;
+  width:100%;
+  height:100%
+}  */
+/* range------------------------------ */
+/* .range{
+  display:flex;
+  justify-content: space-between;
+  width:55%;
+  height:20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.range .range1 h5,
+.range .range2 h5{
+  font-size:50px    
+}
+.range .range1 span,
+.range .range2 span{
+  color: #838386
+} */
+/* grow-------------------------------- */
+/* .grow img{
+  display: inline-block;
+  width:100vh;
+} */

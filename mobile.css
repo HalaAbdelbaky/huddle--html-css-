@@ -1,0 +1,141 @@
+body{
+  --width-footer-designer:90%
+}
+
+/* header------------- */
+header  .logo-img{
+  width:113px;
+  height:23px;
+}
+header  .logo-img img{
+  height:100%;
+}
+.container{
+  width:90vw;
+}
+header .btn button{
+padding:  .40rem 1.9rem;
+}
+header{
+  height:120PX;
+  width:90vw
+}
+/* community----------------------------- */
+.community .introduction h1{
+  font-size:28px;
+}
+.community .introduction p{
+  width:100%;
+  letter-spacing:.5px;
+  font-size: 15px;
+}
+.btn2  button{
+  padding: .8rem  2rem;
+}
+/* range---------- */
+.range .range1,
+.range .range2 {
+  width:90vw;
+   text-align: center;
+}
+.range .range1 {
+  margin-bottom:155px;
+}
+.range .range1 h3, .range .range2 h3 {
+  font-size: 60px;
+}
+.range {
+  padding-top: 82px
+}
+/* grow------------ */
+.grow .grow-curve {
+  top: -40px;
+}
+.flowing    .growing   .discuss{
+  padding:0;
+}
+.flowing{
+  padding-top:100px
+}
+.grow    .growing   .discuss,
+.flowing    .growing   .discuss,
+.users  .growing   .discuss
+{
+width:90vw;
+text-align: center;
+}
+.grow   .growing   .illustration-grow,
+.flowing   .growing   .illustration-grow,
+.users   .growing   .illustration-grow{
+  width:90vw;
+  margin-bottom: 40px;
+}
+.grow   .growing   .discuss   p
+,.flowing  .growing   .discuss   p,
+.users    .growing .discuss  p{
+  width:90vw
+}
+.grow   .growing,
+.users .growing
+{
+  flex-wrap:wrap-reverse;
+}
+.grow  .growing .discuss h2,
+.flowing  .growing  .discuss  h2,
+.users .growing .discuss h2
+{
+  font-size:20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.grow .grow-curve2 {
+  bottom: -40px;
+}
+.users .users-curve {
+  top: -41px;
+}
+/* footer------ */
+.footer .footer-curve {
+  top:calc(-.0655 * var(--width-footer-designer));
+  width:100vw
+}
+.footer {
+  width:100vw
+}
+.footer .designer {
+  width:90vw;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #dcedff;
+  font-size: 12px;
+}
+.footer .container {
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.footer .container .tips {
+  width: 90vw;
+  margin-left:0;
+  margin-bottom: 52px;
+}
+.footer .container .details {
+  width: 90vw;
+}
+.footer .container .tips form {
+flex-wrap:wrap
+}
+.footer .container .tips button {
+  margin-left: 193px;
+  margin-top:20px;
+}
+.footer .container .tips form input {
+  padding:10px 16px;
+  width:90vw;
+}
+.footer .container .tips p {
+  width:80%;
+}
+.footer .container .tips h2 {
+  font-size: 20px;
+}
